@@ -23,9 +23,9 @@
 
 ## Honest limitations
 
-- Results depend on the loaded tabs and current workload.
+- Memory savings depend on the user’s actual Chrome session. TabVitals shows the recoverable amount on their own computer.
 - Chrome does not expose every process in a way that can always be mapped one-to-one.
-- Memory savings vary; there is no fixed amount to promise.
+- There is no fixed amount of memory to promise.
 - A sleeping tab may need to reload when reopened.
 - Active, pinned, playing-audio, and Always Awake tabs are protected.
 
