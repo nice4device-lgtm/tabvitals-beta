@@ -5,13 +5,17 @@
 Find the tabs eating your memory.  
 Sleep heavy tabs without closing anything.
 
-## [Download the latest Chrome beta](https://github.com/nice4device-lgtm/tabvitals-beta/releases/tag/v0.4.5-beta)
+[Official website](https://tabvitals.com/) · [Privacy](https://tabvitals.com/privacy) · [Security](https://tabvitals.com/security) · [Support](https://tabvitals.com/support)
 
-**Download [`TabVitals-v0.4.5-Beta-Chrome-Extension.zip`](https://github.com/nice4device-lgtm/tabvitals-beta/releases/download/v0.4.5-beta/TabVitals-v0.4.5-Beta-Chrome-Extension.zip).**
+## Official install (Chrome Web Store)
 
-> **Do not use GitHub's automatically generated Source code archives — they are not the installable extension.**
+[Add to Chrome — Free (official)](https://chromewebstore.google.com/detail/tabvitals-%E2%80%94-tab-memory-fi/ljimhionelboehpfhipedoepaiiamdof)
 
-Current version: **V0.4.5 BETA**
+Primary install path is now Chrome Web Store.  
+Manual GitHub install is technical fallback only.
+The canonical product website is [tabvitals.com](https://tabvitals.com/).
+
+Current version: **V0.4.6 BETA**
 
 Free during beta.
 
@@ -26,7 +30,13 @@ Free during beta.
 
 ## Install the beta
 
-1. Download `TabVitals-v0.4.5-Beta-Chrome-Extension.zip`.
+1. Open Chrome Web Store and click **Add to Chrome**.
+2. Pin TabVitals to your toolbar if you want.
+3. Open the extension and run your first X-Ray scan.
+
+Manual fallback (if Web Store is blocked in your environment):
+
+1. Download [TabVitals-v0.4.5-Beta-Chrome-Extension.zip](https://github.com/nice4device-lgtm/tabvitals-beta/releases/download/v0.4.5-beta/TabVitals-v0.4.5-Beta-Chrome-Extension.zip).
 2. Unzip the downloaded file.
 3. Open `chrome://extensions`.
 4. Enable **Developer mode**.
@@ -34,8 +44,6 @@ Free during beta.
 6. Select the extracted TabVitals folder containing `manifest.json`.
 7. Pin TabVitals to the Chrome toolbar if desired.
 8. Run your first X-Ray scan.
-
-The Chrome Web Store version is coming. Manual installation is only required during the current beta.
 
 ## Privacy
 
@@ -54,14 +62,16 @@ Chrome may show a diagnostics/debugger warning because TabVitals uses Chrome's d
 
 No page content, passwords, cookies, or browsing history are uploaded.
 
-## File verification
+## Install path details
 
-- Version: `V0.4.5 BETA`
+- CWS version: `V0.4.6 BETA`
+- GitHub fallback ZIP: `V0.4.5 BETA` (manual install only)
 - File: `TabVitals-v0.4.5-Beta-Chrome-Extension.zip`
 - SHA-256: `5be82bc8fb6dbe54f38aae23ef9d2d1bd4a102a7f518f254bba05ba278c9981d`
 
-[View the TabVitals V0.4.5 Beta Release](https://github.com/nice4device-lgtm/tabvitals-beta/releases/tag/v0.4.5-beta)
+[Technical fallback release (v0.4.5)](https://github.com/nice4device-lgtm/tabvitals-beta/releases/tag/v0.4.5-beta)
 
 [Creator test kit](CREATOR_TEST_KIT.md)
 
-This repository is the official public beta distribution channel for TabVitals. Extension source code is not published here.
+This repository is the **technical fallback** distribution channel for manual installation when Google Web Store is blocked.
+The extension source code is not published here.
